@@ -1,0 +1,40 @@
+# 编译产物
+webserver
+webserver.out
+*.o
+*.so
+*.a
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
+
+# 数据库相关（如果包含敏感信息）
+# *.db
+# *.sqlite
+
+# 环境变量文件（如果包含敏感信息）
+.env
+.env.local
+
